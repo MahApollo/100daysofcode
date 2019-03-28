@@ -1,37 +1,69 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
 <head>
+	<meta charset="utf-8">
 	<title>Registro</title>
 </head>
 <body>
-	<h1>Registro<h1>
-	<form>
-		Nome: <input type="text"><br>
-		Sobrenome: <input type="text"><br>
-		E-mail: <input type="email" required><br>
-		Senha: <input type="password"><br>
-		Data de nascimento: <input type="date"><br>
-		Gênero:<br>
-		<input type="radio" name="gender">Masculino<br>
-		<input type="radio" name="gender">Feminino<br>
-		<input type="radio" name="gender">Outro<br>
-		Animal de estimação:<br>
-		<input type="checkbox">Gato<br>
-		<input type="checkbox">Cachorro<br>
-		<input type="checkbox">Peixe<br>
-		<input type="checkbox">Outro<br>
-		<input type="submit" value="Registrar!">
-		<input type="reset" value="Apagar">
-	</form>
-
-
-<footer>
-	<a href="index.html">
-		<h2>Voltar para inicio</h2>
-	<a/>
-	<a href="newpage">
-		<h2>Ir para nova pagina</h2>
-	</a>
-<footer>
+	<header>
+		<h1>Registro</h1>
+	</header>
+	<nav>
+		<ul>
+			<li>
+				<a href="index.html">
+					<h2>Voltar para inicio</h2>
+				</a>
+			</li>
+			<li>
+				<a href="newpage">
+					<h2>Ir para nova pagina</h2>
+				</a>
+			</li>
+		</ul>
+	</nav>
+	<div>
+		<form action="cadastrar" method="POST">
+			<fieldset>
+				<legend>Cadastro</legend>
+				<label for="idnome">Nome: </label>
+				<input type="text" name="nome" id="idnome"><br>
+				<label for="idsobrenome">Sobrenome: </label>
+				<input type="text" name="sobrenome" id="idsobrenome"><br>
+				<label for="idemail">E-mail: </label>
+				<input type="email" name="email" id="idemail" required><br>
+				<label for="idsenha">Senha: </label>
+				<input type="password" name="senha" id="idsenha"><br>
+				<label for="idnascimento">Data de nascimento: </label>
+				<input type="date" name="dtdenascimento" id="idnascimento"><br>
+				<label>Gênero: </label><br>
+				<input type="radio" name="genero" value="masculino" id="idmasculino">Masculino<br>
+				<input type="radio" name="genero" value="feminino" id="idfeminino">Feminino<br>
+				<input type="radio" name="genero" value="outro" id="idoutro">Outro<br>
+				<label>Animal de estimação: </label><br>
+				<input type="checkbox" name="gato" id="idgato">Gato<br>
+				<input type="checkbox" name="cachorro" id="idcachorro">Cachorro<br>
+				<input type="checkbox" name="peixe" id="idpeixe">Peixe<br>
+				<input type="checkbox" name="passaro" id="idpassaro">Passaro<br>
+				<label>Carros: </label>
+				<select>
+					<optgroup label="Luxo">
+						<option value="volvo" id="volvo">Volvo</option>
+						<option value="audi" id="audi">Audi</option>
+						<option value="bmw" id="bmw">BMW</option>
+					</optgroup>
+					<optgroup label="Economico">
+						<option value="fiat" id="fiat">Fiat</option>
+						<option value="volkswagen" id="volkswagen">Volkswagen</option>
+						<option value="renault" id="renault">Renault</option>
+					</optgroup>
+				</select>
+				<input type="submit" value="Registrar!"> <input type="reset" value="Apagar">
+			</fieldset>
+		</form>
+	</div>
+	<footer>
+		<p>Site feito com amor!!!</p>
+	</footer>
 </body>
 </html>
