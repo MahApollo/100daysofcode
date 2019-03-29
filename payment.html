@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<title>Método de pagamento</title>
+</head>
+<body>
+	<form action="cadastrar" method="post">
+	<fieldset>
+		<legend>Informações pessoais</legend>
+		<label for="idnome"> Nome: </label>
+		<input type="text" name="nome" id="idnome"><br>
+		<label for="idsobrenome">Sobrenome: </label>
+		<input type="text" name="sobrenome" id="idsobrenome"><br>
+		<label for="idcpf">CPF: </label>
+		<input type="text" name="cpf" id="idcpf"><br>
+		<label for="idemail">E-mail: </label>
+		<input type="email" name="email" id="idemail"><br>
+		<label for="idemail">Telefone: </label>
+		<input type="text" name="telefone" id="idtelefone"><br>
+		<label for="idendereco">Endereço: </label>
+		<input type="text" name="endereço" id="idendereco"><br>
+		<label for="idcep">CEP: </label>
+		<input type="text" name="cep" id="idcep">
+		<label for="idbuscar"></label>
+		<input type="button" name="buscar" value="Buscar" id="idbuscar">
+	</fieldset>
+	<fieldset>
+		<legend>Método de pagamento</legend>
+		<input type="radio" name="nenhum" value="nenhum" id="idnenhum">Nenhum<br>
+		<input type="radio" name="credito" value="credito" id="idcredito">Cartão de crédito<br>
+		<input type="radio" name="paypal" value="paypal" id="idpaypal">Paypal<br>
+	</fieldset>
+	<fieldset>
+		<legend>Dados de pagamento</legend>
+		<label for="idcobranca">Nome de cobrança</label>
+		<input type="text" name="ncobranca" id="idcobranca"><br>
+		<label for="idnumerocc">Número de cartão</label>
+		<input type="text" name="numerocc" id="idnumerocc"><br>
+		<label for="idcvv">CVV</label>
+		<input type="text" name="cvv" id="idcvv"><br>
+		<label for="identrega">Endereço de entrega: </label>
+		<input type="text" name="entrega" id="identrega"><br>
+	</fieldset>
+	<fieldset>
+		<legend>Finalizar</legend>
+		<input type="checkbox" name="termo" id="idtermo">Eu aceito os termos e condições<br>
+		<input type="submit" value="Registrar!"> <input type="reset" value="Apagar">
+	</fieldset>
+</form>
+<footer>
+	<p>Site feito com amor</p>
+</footer>
+</body>
+</html>
