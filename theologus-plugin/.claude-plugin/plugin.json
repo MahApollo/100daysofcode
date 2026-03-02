@@ -1,0 +1,8 @@
+{
+  "name": "theologus",
+  "description": "A theology study assistant plugin that provides tools for analyzing religious texts, exploring theological concepts, and studying scripture.",
+  "version": "1.0.0",
+  "author": {
+    "name": "theologus"
+  }
+}
