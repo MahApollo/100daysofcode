@@ -1,6 +1,16 @@
 {
   "version": 1,
   "skills": {
+    "Book Writing": {
+      "source": "dammitpogi/P4NTH30N",
+      "sourceType": "github",
+      "computedHash": "1be54a6921fc888bed5885a1dc9f768dd25448a1ffff7dcbd943d8d4a04d07eb"
+    },
+    "Writing": {
+      "source": "dammitpogi/P4NTH30N",
+      "sourceType": "github",
+      "computedHash": "6b5be7d8dbed6cee7cd1d9094ea4737d71b3ff31f3b86e5ffe97dc8f7f8f375f"
+    },
     "academic-paper-search": {
       "source": "werlang/overleaf-hero",
       "sourceType": "github",
@@ -36,10 +46,20 @@
       "sourceType": "github",
       "computedHash": "36bc386d51005fbc06e816cdc9636fc30465121b80e0b903ff7c0066b08ee920"
     },
+    "api-gateway": {
+      "source": "dammitpogi/P4NTH30N",
+      "sourceType": "github",
+      "computedHash": "b946ab560538b8c2fdbd4e43f8ece9b88ac5ade0171b5bb9c5909fb857125c4d"
+    },
     "arboreto": {
       "source": "K-Dense-AI/claude-scientific-skills",
       "sourceType": "github",
       "computedHash": "ff123faba32594b095e2702abe40598c8b7554950058588584207eb4660e093c"
+    },
+    "arxiv-skill-learning": {
+      "source": "dammitpogi/P4NTH30N",
+      "sourceType": "github",
+      "computedHash": "354fd2e40503cacf420aecd56134fe3e33a09e97d3b0739a93a81af6b43dad73"
     },
     "astropy": {
       "source": "K-Dense-AI/claude-scientific-skills",
@@ -91,6 +111,16 @@
       "sourceType": "github",
       "computedHash": "111a1b8582c9ff87d537bec5661f78e149c3458c5baf62f9bbe1f3f9f738f803"
     },
+    "business-writing": {
+      "source": "dammitpogi/P4NTH30N",
+      "sourceType": "github",
+      "computedHash": "270a1150a432cbbc5e8a6d89f7e0296fd89875bceae99783b07d14be87edafc3"
+    },
+    "cartography": {
+      "source": "dammitpogi/P4NTH30N",
+      "sourceType": "github",
+      "computedHash": "358c263c758b3aaac3491db9e955b4cc7feedc014776dcfa5a677e644d77f189"
+    },
     "cellxgene-census": {
       "source": "K-Dense-AI/claude-scientific-skills",
       "sourceType": "github",
@@ -141,10 +171,25 @@
       "sourceType": "github",
       "computedHash": "0da6d2e491b33f1808f62afd1aa7fb8a9c4f9827961528c713c3807841b0d167"
     },
+    "code-review": {
+      "source": "dammitpogi/P4NTH30N",
+      "sourceType": "github",
+      "computedHash": "73b12224185b7d287a4f59d4d5ed45dbc7ac9274a33605ecbace38057269a8f7"
+    },
     "code-reviewer": {
       "source": "Shubhamsaboo/awesome-llm-apps",
       "sourceType": "github",
       "computedHash": "ac45cbe57cf1e5f2110e6a68238c5681f97007904d65b6858daa080dc69d7abc"
+    },
+    "codemap-cartography": {
+      "source": "dammitpogi/P4NTH30N",
+      "sourceType": "github",
+      "computedHash": "3857df46d425a4aba9905e2e3edb92ee8272e53c20ff7297269254814fcab536"
+    },
+    "codemap-management": {
+      "source": "dammitpogi/P4NTH30N",
+      "sourceType": "github",
+      "computedHash": "8bb433dd32bb9cd7087b7f430031489644ea288f5c49b6c42732501ac30bd46f"
     },
     "conciliacao-assistant": {
       "source": "fbmoulin/lex-intelligentia-skills",
@@ -160,6 +205,11 @@
       "source": "fbmoulin/lex-intelligentia-skills",
       "sourceType": "github",
       "computedHash": "bb0c3eec97ed4c1b201cd281884664ae35386f26d8ea7d1af2ed793b0119b056"
+    },
+    "copywriter": {
+      "source": "dammitpogi/P4NTH30N",
+      "sourceType": "github",
+      "computedHash": "34082403e36f49d11184b1894d6903008210f13b7e204b1ee05e17526a179748"
     },
     "cosmic-database": {
       "source": "K-Dense-AI/claude-scientific-skills",
@@ -196,6 +246,11 @@
       "sourceType": "github",
       "computedHash": "609b0b6d79fe21bcb5eb8a01b38f5571b8ae05be826936a312bc04d9c5400193"
     },
+    "decision-analysis": {
+      "source": "dammitpogi/P4NTH30N",
+      "sourceType": "github",
+      "computedHash": "0043f30c87ad46a5072c8e8900bca77bd54413933cf3a3f9b0d52fd22f4441cb"
+    },
     "decision-helper": {
       "source": "Shubhamsaboo/awesome-llm-apps",
       "sourceType": "github",
@@ -221,6 +276,11 @@
       "sourceType": "github",
       "computedHash": "d681040b2d505d279f62c4015ec39c7fc04ddaf175416e83b8429b641eb743c0"
     },
+    "deployment": {
+      "source": "dammitpogi/P4NTH30N",
+      "sourceType": "github",
+      "computedHash": "f4605e7b858d4c8ebb4622f093f4c91e6b0f90d6be2e87f8ffa25e8c8d74b64d"
+    },
     "diffdock": {
       "source": "K-Dense-AI/claude-scientific-skills",
       "sourceType": "github",
@@ -240,6 +300,11 @@
       "source": "K-Dense-AI/claude-scientific-skills",
       "sourceType": "github",
       "computedHash": "7daf8c7cc6f4deb0db088f6b8d679c445065bc72ac6d97cfb3fa7a0c52b440ab"
+    },
+    "duckduckgo-search": {
+      "source": "dammitpogi/P4NTH30N",
+      "sourceType": "github",
+      "computedHash": "b07513990f7acc1a6fda5b385d5f1beb2e693863b8072e0a3cdcbaf713b4446f"
     },
     "edgartools": {
       "source": "K-Dense-AI/claude-scientific-skills",
@@ -276,6 +341,11 @@
       "sourceType": "github",
       "computedHash": "d791d7b57be439aa030db9693279c6910e1574ea013262540327db52bace1dfd"
     },
+    "exa-web-search-free": {
+      "source": "dammitpogi/P4NTH30N",
+      "sourceType": "github",
+      "computedHash": "e753bf527c662003a32171a646e3daa7377a4ee86e37d24dd3890505cb13f063"
+    },
     "exploratory-data-analysis": {
       "source": "K-Dense-AI/claude-scientific-skills",
       "sourceType": "github",
@@ -290,6 +360,11 @@
       "source": "K-Dense-AI/claude-scientific-skills",
       "sourceType": "github",
       "computedHash": "51ac93362aad5dac96f604c335af988f91b38e22a9017125a5a23405f9d0b787"
+    },
+    "find-skills": {
+      "source": "dammitpogi/P4NTH30N",
+      "sourceType": "github",
+      "computedHash": "78b28032cb96498a6a4a964b0d8ccb72144cac1371c62782dd831126c95d1371"
     },
     "flowio": {
       "source": "K-Dense-AI/claude-scientific-skills",
@@ -306,10 +381,25 @@
       "sourceType": "github",
       "computedHash": "d1629e2bb8be0921540c2e94577c82e62657ba8c1a6ba3386a0c06f9dab3a08d"
     },
+    "freeride": {
+      "source": "dammitpogi/P4NTH30N",
+      "sourceType": "github",
+      "computedHash": "8ad95057bf771c0ef65ea1c4439036b7203732323cf2e045c46141771011f75f"
+    },
+    "frontend-design": {
+      "source": "dammitpogi/P4NTH30N",
+      "sourceType": "github",
+      "computedHash": "eaa18eef33524b4c1dce1f9161a7c9eb5bc2bc5bc903aa14a57335fe735d52de"
+    },
     "fullstack-developer": {
       "source": "Shubhamsaboo/awesome-llm-apps",
       "sourceType": "github",
       "computedHash": "d824d75875b289753740c12ba33c005a40f0d996f12d3424cabf1ef9ad4cd1a3"
+    },
+    "gemini": {
+      "source": "dammitpogi/P4NTH30N",
+      "sourceType": "github",
+      "computedHash": "19fca60635f875af3660fe059645954fb6aa19ea937fadd0a51e7ad3f97dd15a"
     },
     "gene-database": {
       "source": "K-Dense-AI/claude-scientific-skills",
@@ -385,6 +475,11 @@
       "source": "K-Dense-AI/claude-scientific-skills",
       "sourceType": "github",
       "computedHash": "08d4c0851f2a252e311a796e88386dcb337d310302bfb0942c49346b088da919"
+    },
+    "humanizer": {
+      "source": "dammitpogi/P4NTH30N",
+      "sourceType": "github",
+      "computedHash": "4c92f0362ffbbbf87fce7a68d195e41bb1f8b83452750332c00f3034751ca395"
     },
     "hypogenic": {
       "source": "K-Dense-AI/claude-scientific-skills",
@@ -501,10 +596,20 @@
       "sourceType": "github",
       "computedHash": "3b5177c1f5b3fc0b7374a5caa7252ed493f4b08de1c3c95d89ca33c5c87acbcd"
     },
+    "model-tester": {
+      "source": "dammitpogi/P4NTH30N",
+      "sourceType": "github",
+      "computedHash": "24efe384ba08b87e21c832fe24354762f62ad7bbfe8436946335d0c1cf6ee024"
+    },
     "molfeat": {
       "source": "K-Dense-AI/claude-scientific-skills",
       "sourceType": "github",
       "computedHash": "4e13f70b4a16f9d5c8ee528bf419ab87143ce914f67186ae95e43fa708698012"
+    },
+    "multi-search-engine": {
+      "source": "dammitpogi/P4NTH30N",
+      "sourceType": "github",
+      "computedHash": "62c4e588ac4e5ce7adf3f73c49b81748f6f63a482e39c7063ef3c2a09bc28020"
     },
     "n8n-legal-config": {
       "source": "fbmoulin/lex-intelligentia-skills",
@@ -541,10 +646,20 @@
       "sourceType": "github",
       "computedHash": "b674bf858f277e84e44cd15639a19c2dec71b9f7dddc29deb1b057033291c634"
     },
+    "ontology": {
+      "source": "dammitpogi/P4NTH30N",
+      "sourceType": "github",
+      "computedHash": "8e778451ddc44ffa3d82fd98208a643e38483842807676e2f36763b7e2842c29"
+    },
     "open-notebook": {
       "source": "K-Dense-AI/claude-scientific-skills",
       "sourceType": "github",
       "computedHash": "f4ca0eda56ce29fa04d8e500d4b285ac8e8d50d0103e217002e55e9b3949b6bd"
+    },
+    "openai-usage": {
+      "source": "dammitpogi/P4NTH30N",
+      "sourceType": "github",
+      "computedHash": "34dba1d5180eb1825c6fc66a36e117d45bdb7ab725f3781992f4e91f4683dd84"
     },
     "openalex-database": {
       "source": "K-Dense-AI/claude-scientific-skills",
@@ -751,6 +866,11 @@
       "sourceType": "github",
       "computedHash": "ec88e3a8c74d7ea169a60cc0bd03a17ddb8dd457aae53344bbb4886cd7af4ccd"
     },
+    "research-paper-writer": {
+      "source": "dammitpogi/P4NTH30N",
+      "sourceType": "github",
+      "computedHash": "317641b1e3822d5b7f7e610c4c6f77935218d7192276f8910184b70493f2c643"
+    },
     "rowan": {
       "source": "K-Dense-AI/claude-scientific-skills",
       "sourceType": "github",
@@ -821,6 +941,11 @@
       "sourceType": "github",
       "computedHash": "24720285d0c6843df5df0643b2c0844a9da053353aa945d7a4fa05efdc1944aa"
     },
+    "self-improvement": {
+      "source": "dammitpogi/P4NTH30N",
+      "sourceType": "github",
+      "computedHash": "07ff77d26e3470033febeb0918d5b999791ab4c2fdb616c6ca6f2dacf731c9ab"
+    },
     "sermon-writer": {
       "source": "williacj/claude-skills",
       "sourceType": "github",
@@ -837,9 +962,19 @@
       "computedHash": "001f85153e2abab4c2c64ab9f59ab3a5f19942abb4b8f9ec0b44d0725ea41bb4"
     },
     "skill-creator": {
-      "source": "werlang/overleaf-hero",
+      "source": "dammitpogi/P4NTH30N",
       "sourceType": "github",
-      "computedHash": "e57e7c7544da8bf393ddc60a07355293489c98a45858d7b4e96943491e8bd0d1"
+      "computedHash": "19763474cacf065223e5c3c344901a671d4df90975a38fb9841864432f6d7b97"
+    },
+    "skill-deps": {
+      "source": "dammitpogi/P4NTH30N",
+      "sourceType": "github",
+      "computedHash": "39352ac49623b2eb3ac6bafb97cb66f2b3fca1a09d3b72c03198b2efc2a0ae97"
+    },
+    "skill-router": {
+      "source": "dammitpogi/P4NTH30N",
+      "sourceType": "github",
+      "computedHash": "fd843772adffced50eb1950d53e25578e3b210f9cc3c07e0d6953dfb95287363"
     },
     "sprint-planner": {
       "source": "Shubhamsaboo/awesome-llm-apps",
@@ -871,6 +1006,11 @@
       "sourceType": "github",
       "computedHash": "ed8f211076b21e07c471491f8587769db15447cdbea978bb93720832d9c50c9a"
     },
+    "summarize": {
+      "source": "dammitpogi/P4NTH30N",
+      "sourceType": "github",
+      "computedHash": "8b1b755a58e22504b23334b2d030f2475d060ec37a1dfa9e55d1126d9c5664b2"
+    },
     "sympy": {
       "source": "K-Dense-AI/claude-scientific-skills",
       "sourceType": "github",
@@ -886,6 +1026,11 @@
       "sourceType": "github",
       "computedHash": "b583b2c1347635525127b18354aa4006ce3f2e564fb343b46643bc9a77109107"
     },
+    "test-execution": {
+      "source": "dammitpogi/P4NTH30N",
+      "sourceType": "github",
+      "computedHash": "dfaf7f3336f3cfa016729493bd584c24ff74d392353589f1dbe231a54b7167c0"
+    },
     "theological-sparring-partner": {
       "source": "williacj/claude-skills",
       "sourceType": "github",
@@ -900,6 +1045,11 @@
       "source": "K-Dense-AI/claude-scientific-skills",
       "sourceType": "github",
       "computedHash": "8e85db92c3efe608ab24b2c3cfd5584d9dd7e92949d7a2b29c3428ce6d4f894e"
+    },
+    "toolhive": {
+      "source": "dammitpogi/P4NTH30N",
+      "sourceType": "github",
+      "computedHash": "734b7ec5c02ee73ea7c8fdf32198e8cb8bcc764630bedbd9a8db8756d3cfb12c"
     },
     "torch-geometric": {
       "source": "K-Dense-AI/claude-scientific-skills",
@@ -960,6 +1110,11 @@
       "source": "Shubhamsaboo/awesome-llm-apps",
       "sourceType": "github",
       "computedHash": "cd8f8bc48c6790cb3b25a13e7a7b05dccd6fd5213577ca59d3c232282d1e151a"
+    },
+    "web-to-markdown": {
+      "source": "dammitpogi/P4NTH30N",
+      "sourceType": "github",
+      "computedHash": "bb00770209da2d362b3db0e0f31eecf4cea30019d977a36a5f062eac2d216058"
     },
     "xlsx": {
       "source": "K-Dense-AI/claude-scientific-skills",
