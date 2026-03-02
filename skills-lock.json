@@ -1,6 +1,11 @@
 {
   "version": 1,
   "skills": {
+    "academic-paper-search": {
+      "source": "werlang/overleaf-hero",
+      "sourceType": "github",
+      "computedHash": "78d72dfda46c36332c65204132e10e3baeb39ac058991a8e2952b86a500c40c7"
+    },
     "academic-researcher": {
       "source": "Shubhamsaboo/awesome-llm-apps",
       "sourceType": "github",
@@ -55,6 +60,11 @@
       "source": "williacj/claude-skills",
       "sourceType": "github",
       "computedHash": "dc7825cc49f8ffc0a4d7a240f2f3221fb168f18946e8dd7873ff4e4426f43f39"
+    },
+    "bibtex-reference-management": {
+      "source": "werlang/overleaf-hero",
+      "sourceType": "github",
+      "computedHash": "983f1519d2d90d7c40cac9c7904aac4032365c1aebcab3ba01f40f4cc3e80d71"
     },
     "biopython": {
       "source": "K-Dense-AI/claude-scientific-skills",
@@ -136,10 +146,20 @@
       "sourceType": "github",
       "computedHash": "ac45cbe57cf1e5f2110e6a68238c5681f97007904d65b6858daa080dc69d7abc"
     },
+    "conciliacao-assistant": {
+      "source": "fbmoulin/lex-intelligentia-skills",
+      "sourceType": "github",
+      "computedHash": "4eb015a505df21e5189f6d2659b43d45ff2ff239307637b4ac299546b8773627"
+    },
     "content-creator": {
       "source": "Shubhamsaboo/awesome-llm-apps",
       "sourceType": "github",
       "computedHash": "8a40efacec188736eb229b9605df4d6a3c9d42e5ec08765e31dd5d2ad2c679cb"
+    },
+    "contrato-analyzer-br": {
+      "source": "fbmoulin/lex-intelligentia-skills",
+      "sourceType": "github",
+      "computedHash": "bb0c3eec97ed4c1b201cd281884664ae35386f26d8ea7d1af2ed793b0119b056"
     },
     "cosmic-database": {
       "source": "K-Dense-AI/claude-scientific-skills",
@@ -411,10 +431,20 @@
       "sourceType": "github",
       "computedHash": "e4618ffb1db33e1e642203645a2fef8a8d0148b1f1ee72e956ee802e367ece7c"
     },
+    "latex-paper-writing-en": {
+      "source": "werlang/overleaf-hero",
+      "sourceType": "github",
+      "computedHash": "a9f21bad5a024e0fc8677546bf35cb87b97851a1095d0c37026664fb0fbc6c92"
+    },
     "latex-posters": {
       "source": "K-Dense-AI/claude-scientific-skills",
       "sourceType": "github",
       "computedHash": "b5f12c89ad62b939f5b84ece745e1d5298de0b7d1a954c5ae6361c9a5ece99d7"
+    },
+    "latex-tcc-abnt-review-ptbr": {
+      "source": "werlang/overleaf-hero",
+      "sourceType": "github",
+      "computedHash": "3cafc1a3adc388ef56f6664a269723652d22b3d3a13aebf87652b283aa5e2485"
     },
     "literature-review": {
       "source": "K-Dense-AI/claude-scientific-skills",
@@ -476,6 +506,16 @@
       "sourceType": "github",
       "computedHash": "4e13f70b4a16f9d5c8ee528bf419ab87143ce914f67186ae95e43fa708698012"
     },
+    "n8n-legal-config": {
+      "source": "fbmoulin/lex-intelligentia-skills",
+      "sourceType": "github",
+      "computedHash": "19b1b8ef607f1b9a52e68e369e295649afc328953b37ab2eec2b63fc3cc7113d"
+    },
+    "n8n-workflow-generator": {
+      "source": "fbmoulin/lex-intelligentia-skills",
+      "sourceType": "github",
+      "computedHash": "9aea2290bf7e949296737d45671ca894db6ad1d032b9581a37b330b60a1d9c9b"
+    },
     "networkx": {
       "source": "K-Dense-AI/claude-scientific-skills",
       "sourceType": "github",
@@ -521,10 +561,20 @@
       "sourceType": "github",
       "computedHash": "5ab998c4f3fe3685318db63bbc236bbd42d15e34cfbf652a5207a0f15b0f4a82"
     },
+    "orientador-feedback-ptbr": {
+      "source": "werlang/overleaf-hero",
+      "sourceType": "github",
+      "computedHash": "e2a4b0c431dec93d9de4e7cff4a525772accec1548b880c4fa91cdc17b8a6d44"
+    },
     "paper-2-web": {
       "source": "K-Dense-AI/claude-scientific-skills",
       "sourceType": "github",
       "computedHash": "ef598a32121c3ce12bf965503146d7e4c83daf76c08c1a183e3b018167cdc3cc"
+    },
+    "paper-tex-workflow": {
+      "source": "werlang/overleaf-hero",
+      "sourceType": "github",
+      "computedHash": "b979b23ad69f94d3ad347d4e1fd3aad82104b3a161c3a89f4375aefb93ab0c05"
     },
     "pathml": {
       "source": "K-Dense-AI/claude-scientific-skills",
@@ -537,9 +587,9 @@
       "computedHash": "1b94f985c49f1497555df42653a1be10ec850c8af4da205d7d417cdd17a7576a"
     },
     "pdf": {
-      "source": "K-Dense-AI/claude-scientific-skills",
+      "source": "werlang/overleaf-hero",
       "sourceType": "github",
-      "computedHash": "c46f21940859c9b7513f448fb5478481cb3f73431cb55a1d0e783afd0d05f953"
+      "computedHash": "84eacdc4c2a6741c1c6d9469caa374d7c8ea17ac55dfe93132e16999ac11403f"
     },
     "peer-review": {
       "source": "K-Dense-AI/claude-scientific-skills",
@@ -580,6 +630,11 @@
       "source": "Shubhamsaboo/awesome-llm-apps",
       "sourceType": "github",
       "computedHash": "62897927d02705437bb82e3f6d622c29e3b43593d84967da60a014b623353f1f"
+    },
+    "prompt-forge-juridico": {
+      "source": "fbmoulin/lex-intelligentia-skills",
+      "sourceType": "github",
+      "computedHash": "b2c452342b337f61c303f9d1b5a31f3cc333684a9669f579f73888de5c3a7f3f"
     },
     "protocolsio-integration": {
       "source": "K-Dense-AI/claude-scientific-skills",
@@ -781,6 +836,11 @@
       "sourceType": "github",
       "computedHash": "001f85153e2abab4c2c64ab9f59ab3a5f19942abb4b8f9ec0b44d0725ea41bb4"
     },
+    "skill-creator": {
+      "source": "werlang/overleaf-hero",
+      "sourceType": "github",
+      "computedHash": "e57e7c7544da8bf393ddc60a07355293489c98a45858d7b4e96943491e8bd0d1"
+    },
     "sprint-planner": {
       "source": "Shubhamsaboo/awesome-llm-apps",
       "sourceType": "github",
@@ -820,6 +880,11 @@
       "source": "Shubhamsaboo/awesome-llm-apps",
       "sourceType": "github",
       "computedHash": "e1ccd2334efd9b2137844568db30b0a1c6679404b474c216476c59e22ad08c28"
+    },
+    "tese-juridica-validator": {
+      "source": "fbmoulin/lex-intelligentia-skills",
+      "sourceType": "github",
+      "computedHash": "b583b2c1347635525127b18354aa4006ce3f2e564fb343b46643bc9a77109107"
     },
     "theological-sparring-partner": {
       "source": "williacj/claude-skills",
