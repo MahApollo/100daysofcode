@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8">
+  <title>Theologus - Passagem Bíblica</title>
+  <style>
+    body { font-family: Arial, sans-serif; max-width: 800px; margin: 40px auto; padding: 0 20px; }
+    h1 { color: #333; }
+    .form-group { display: flex; gap: 8px; margin-bottom: 20px; }
+    input[type="text"] { flex: 1; padding: 10px; font-size: 16px; border: 1px solid #ccc; border-radius: 4px; }
+    button { padding: 10px 20px; font-size: 16px; background: #3a7bd5; color: white; border: none; border-radius: 4px; cursor: pointer; }
+    button:hover { background: #2c5fb3; }
+    #resultado { white-space: pre-wrap; line-height: 1.8; font-size: 15px; color: #222; border-left: 4px solid #3a7bd5; padding-left: 16px; }
+    #referencia-titulo { font-weight: bold; font-size: 18px; margin-bottom: 12px; color: #3a7bd5; }
+    #erro { color: #c00; background: #ffeaea; border: 1px solid #c00; padding: 10px; border-radius: 4px; display: none; }
+    #carregando { color: #888; display: none; }
+    .exemplos { margin-bottom: 16px; font-size: 13px; color: #555; }
+    .exemplos span { cursor: pointer; color: #3a7bd5; text-decoration: underline; margin-right: 10px; }
+  </style>
+</head>
+<body>
+  <h1>Theologus — Passagem Bíblica</h1>
+
+  <div class="exemplos">
+    Exemplos:
+    <span onclick="buscarExemplo('1 Cronicas 4')">1 Cronicas 4</span>
+    <span onclick="buscarExemplo('João 3:16')">João 3:16</span>
+    <span onclick="buscarExemplo('Genesis 1:1-3')">Genesis 1:1-3</span>
+    <span onclick="buscarExemplo('Salmos 23')">Salmos 23</span>
+  </div>
+
+  <div class="form-group">
+    <input type="text" id="entrada" placeholder="Ex: 1 Cronicas 4, João 3:16" />
+    <button onclick="buscar()">Buscar</button>
+  </div>
+
+  <div id="erro"></div>
+  <div id="carregando">Buscando passagem...</div>
+  <div id="referencia-titulo"></div>
+  <div id="resultado"></div>
+
+  <script src="theologus.js"></script>
+  <script>
+    async function buscar() {
+      const entrada = document.getElementById('entrada').value.trim();
+      if (!entrada) return;
+
+      const erroEl = document.getElementById('erro');
+      const resultadoEl = document.getElementById('resultado');
+      const tituloEl = document.getElementById('referencia-titulo');
+      const carregandoEl = document.getElementById('carregando');
+
+      erroEl.style.display = 'none';
+      resultadoEl.textContent = '';
+      tituloEl.textContent = '';
+      carregandoEl.style.display = 'block';
+
+      try {
+        const dados = await theologus.passagem(entrada);
+        tituloEl.textContent = dados.referencia;
+        resultadoEl.textContent = dados.texto;
+      } catch (e) {
+        erroEl.textContent = e.message;
+        erroEl.style.display = 'block';
+      } finally {
+        carregandoEl.style.display = 'none';
+      }
+    }
+
+    function buscarExemplo(ref) {
+      document.getElementById('entrada').value = ref;
+      buscar();
+    }
+
+    document.getElementById('entrada').addEventListener('keydown', function(e) {
+      if (e.key === 'Enter') buscar();
+    });
+  </script>
+</body>
+</html>
